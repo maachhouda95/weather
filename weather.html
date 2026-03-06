@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="weather.css">
+    <title>Weather</title>
+</head>
+<body>
+     
+    <div class="search">
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button onclick="getWeather()">Search</button>
+    </div>
+
+    
+    <div class="head">
+        <h1 id="city">City</h1>
+        <h2 class="b" id="temp">--°</h2>
+        <h3 id="wind">Wind: -- km/h</h3>
+        <h3 id="highlow">H:--° L:--°</h3>
+    </div>
+
+    
+    <h2 class="section-title">Next 24 Hours</h2>
+    <div class="hourly" id="hourly"></div>
+
+    
+    <h2 class="section-title">Next 7 Days</h2>
+    <div class="daily" id="daily"></div>
+
+    <script src="meteo.js"></script>
+</body>
+
+</html>
+</body>
+</html>

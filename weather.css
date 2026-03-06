@@ -1,0 +1,85 @@
+body {
+    background-image: url('harshal-D8hpK_Jlhms-unsplash1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+
+.search {
+    text-align: center;
+    margin: 20px;
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.head {
+    text-align: center;
+    padding: 20px;
+}
+
+.b {
+    font-size: 90px;
+    margin: 5px;
+}
+
+
+.section-title {
+    margin-left: 20px;
+}
+
+
+.hourly {
+    display: flex;
+    overflow-x: auto;
+    padding: 15px;
+    gap: 15px;
+}
+
+.hour-box {
+    min-width: 80px;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    text-align: center;
+    padding: 10px;
+}
+
+.hour-box i {
+    font-size: 30px;
+    margin: 5px 0;
+}
+
+
+.daily {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 30px;
+    gap: 10px;
+
+    max-width: 600px;  
+    margin: 0 auto;     
+}
+.day-row {
+    display: flex;
+    justify-content: space-between;
+    background: rgba(0,0,0,0.4);
+    border-radius: 15px;
+    padding: 12px 20px;
+    font-size: 16px;
+}
